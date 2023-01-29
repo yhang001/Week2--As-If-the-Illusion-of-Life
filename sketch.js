@@ -36,7 +36,7 @@ function setup() {
   addGUI();
   
   for(let i =0; i<5; i++){
-  waves[i] =new Wave(random(0,height/10),random(0,TAU),color(190,77,46));
+  waves[i] =new Wave(random(0,height/6),random(0,TAU),color(190,77,46));
   } 
 }
 
